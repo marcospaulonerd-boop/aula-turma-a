@@ -18,6 +18,7 @@ export default function Header() {
           <Nav>
             <NavLink href="/">Home</NavLink>
             <NavLink href="/animes">Animes</NavLink>
+            <NavLink href="/">Categorias</NavLink>
             <NavLink href="/animes/novo">Cadastrar</NavLink>
 
             <LoginButton onClick={() => setShowLogin(true)}>
